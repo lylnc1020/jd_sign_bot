@@ -5,7 +5,7 @@ on:
         branches:
             - master
     schedule:
-        - cron: '33 15 * * *'
+        - cron: '50 15 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
